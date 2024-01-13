@@ -1,0 +1,7 @@
+from args01 import test_for_args
+
+# Assuming test_for_args takes one or more arguments
+
+test_for_args()
+
+# Expected: TypeError - Expects a parameter of f-arg type
