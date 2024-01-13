@@ -30,7 +30,18 @@ In conclusion I test but putting my .py files into my tests/ before executing or
 
     - *args is used to send a **non-keyworded** variable length of argument list to the function.
 
-### **kwargs
+## **kwargs
 
     - **kwargs sends **keyworded** variable length of argument to the function
     P.S iteritems() in older versions of python have been changed to items() in python3
+
+## Using *args and **kwargs to call a function
+
+    - *args: This is achieved by using *args parameter value in a tuple ie parenthesis eg args = (val1, val2, val3...)
+
+    - **kwargs - This is achieved by using **kwargs parameter value in a dictionary ie {} . Remember, dictionary are key: value seperated by full column : eg kwargs = {key: "a", key2: 8}. Note that attribute key must match function parameter name exactly.
+
+## Order of using *args, **kwargs and formal args
+
+To use the the at once, they are used in the following order:
+    - def args_func(fargs, *args, **kwargs):
